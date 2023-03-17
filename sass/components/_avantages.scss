@@ -1,0 +1,34 @@
+.avantages-list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 30px;
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $body-color;
+  }
+  &__text {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+    width: 270px;
+  }
+  &__icons {
+    display: flex;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+  }
+}
